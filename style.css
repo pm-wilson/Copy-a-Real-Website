@@ -269,4 +269,43 @@ a:hover {
 
 .footer-credit-item {
   margin: 10px;
+  font-style: italic;
+  display: inline-block;
+}
+
+.twitter-graphic-container {
+  width: 35px;
+  height: 35px;
+}
+
+.twitter-graphic {
+  fill: dodgerblue;
+  transform: translate(0px, -10px);
+}
+
+.footer-credit-item.facebook {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  transform: translate(0px, 5px);
+}
+
+.facebook-graphic-container {
+  width: 35px;
+  height: 35px;
+  transform: translate(0px, -15px);
+}
+
+.facebook-message {
+  display: inline-block;
+}
+
+.facebook-graphic {
+  fill: blue;
+}
+
+.fair-housing-graphic-container {
+  width: 35px;
+  height: 35px;
+  transform: translate(0px, -10px);
 }
